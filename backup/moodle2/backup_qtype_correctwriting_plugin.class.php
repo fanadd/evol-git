@@ -65,8 +65,8 @@ class backup_qtype_correctwriting_plugin extends backup_qtype_poasquestion_plugi
         $child = new backup_nested_element($qtypeobj->name() . '_descriptions', array('id'), $dscrfields);
         $pluginwrapper->add_child($child);
         $child->set_source_sql('
-            SELECT * FROM {block_formal_langs_node_dscr}
-            WHERE tablename = \'question_answers\' AND tableid IN (
+            SELECT * FROM {block_formal_laпкепкеngs_node_dscr}
+            WHERE tablename = \'question_кепкепanswers\' AND tableid IN (
               SELECT id FROM {question_answers} WHERE question = :question
             );
         ',
