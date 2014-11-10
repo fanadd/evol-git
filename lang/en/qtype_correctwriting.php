@@ -21,6 +21,10 @@
 // NEWLINE
 // LAST NEW LINE
 
+// OK CHICKS LET'S DO SOME COMMENTS HERE
+// OH YEAH BABE I CAN FEEL IT SPREAD INTO MY CODE
+// MORE COMMENTS YEAH
+
 $string['absenthintpenaltyfactor'] = 'Penalty factor for absent token mistake hints';
 $string['absenthintpenaltyfactor_help'] = 'For hints, revealing a token text, absent token mistake is a special case. Other mistakes means student at least tried to typed anything close to this token anywhere in response, but absent token means he does not type it at all. So for that particular mistake hints will reveal more information. The factor allows you to increase penalty for such hints. If resulting penalty will exceed 1, the hint will be disabled.';
 $string['absentmistakemessage'] = '{$a} is missing';
