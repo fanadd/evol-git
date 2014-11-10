@@ -16,6 +16,11 @@
 
 //Lang string file for the correct writing question type
 
+// THIS LINE ADDED TO MASTER BRANCH by Gregory Zbitnev, 10.11.14, 21:34
+// NEWLINE
+// NEWLINE
+// LAST NEW LINE
+
 $string['absenthintpenaltyfactor'] = 'Penalty factor for absent token mistake hints';
 $string['absenthintpenaltyfactor_help'] = 'For hints, revealing a token text, absent token mistake is a special case. Other mistakes means student at least tried to typed anything close to this token anywhere in response, but absent token means he does not type it at all. So for that particular mistake hints will reveal more information. The factor allows you to increase penalty for such hints. If resulting penalty will exceed 1, the hint will be disabled.';
 $string['absentmistakemessage'] = '{$a} is missing';
